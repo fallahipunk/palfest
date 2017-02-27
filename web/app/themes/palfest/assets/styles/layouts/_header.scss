@@ -1,0 +1,61 @@
+/* -- Style navbar  -- */
+
+.navbar-light{
+
+	background-color: #fdfffe;
+    
+	border-bottom-style: solid;
+    border-bottom-width: 3px;
+	border-bottom-color: #fe0000; 
+
+	.container{
+		margin-left: 35px;
+		margin-right: 35px;
+	}
+
+
+
+}
+
+/*-- Style main menu --*/
+.palfest-main-menu{
+	text-align: right;
+	font-size: 25px; 
+	padding-top: 20px;
+
+	li{
+		padding-bottom: 25px;
+
+	}
+
+	a{
+	color: #252525;
+	}
+}
+
+
+/*  --- Style humberger menu button  -- */
+
+.navbar-toggler{
+width: 40px;
+height: 40px;
+
+background: url(../images/hamburger_icon.svg);
+background-repeat: no-repeat;
+background-position: center; 
+
+border: none;
+
+/* code to vertically center hamberger menu */
+top: 50px;
+transform: translateY(-50%);
+
+}
+
+/* get rid of blue focus border on chrome for hamberger menu button
+/*
+.navbar-toggler:focus{
+outline:0;
+} */
+
+
