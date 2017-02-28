@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "45d2090a526d30c0ec9e7a69039050f5",
-    "content-hash": "422772e84dc0fd5b855ba7b6e0d504e6",
+    "hash": "1908efd047b1e31c6af35eeceefa76e6",
+    "content-hash": "3ba7d092fa682ac21f3577fb6b30d433",
     "packages": [
         {
             "name": "composer/installers",
@@ -191,6 +191,44 @@
                 "wordpress"
             ],
             "time": "2015-06-11 15:15:30"
+        },
+        {
+            "name": "llcllc/wpml",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/llcllc/wpml.git",
+                "reference": "24db230784211929d611edceaaf9aeabcc2c4551"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/llcllc/wpml/zipball/24db230784211929d611edceaaf9aeabcc2c4551",
+                "reference": "24db230784211929d611edceaaf9aeabcc2c4551",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "1.0.*",
+                "php": ">=5.3.2"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "H"
+                }
+            ],
+            "description": "Copy of the WPML plugin for multi-language support",
+            "homepage": "https://github.com/llcllc/wpml.git",
+            "keywords": [
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/llcllc/wpml/tree/master",
+                "issues": "https://github.com/llcllc/wpml/issues"
+            },
+            "time": "2017-02-27 22:56:31"
         },
         {
             "name": "oscarotero/env",
@@ -484,7 +522,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "llcllc/wpml": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

@@ -30,6 +30,11 @@
     {
       "type": "composer",
       "url": "https://wpackagist.org"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/llcllc/wpml.git",
+      "no-api": true
     }
   ],
   "require": {
@@ -41,7 +46,8 @@
     "roots/wp-password-bcrypt": "1.0.0",
 	"wpackagist-plugin/wordfence": "6.3.1",
 	"wpackagist-plugin/better-wp-security": "6.1.1",
-	"wpackagist-plugin/sucuri-scanner": "1.8.3"
+	"wpackagist-plugin/sucuri-scanner": "1.8.3",
+  "llcllc/wpml": "dev-master"
 	
   },
   "require-dev": {
