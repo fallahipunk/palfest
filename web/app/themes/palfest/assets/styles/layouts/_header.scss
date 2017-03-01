@@ -12,10 +12,8 @@
 		margin-left: 35px;
 		margin-right: 35px;
 	}
-
-
-
 }
+
 
 /*-- Style main menu --*/
 .palfest-main-menu{
@@ -71,10 +69,11 @@ border: none;
 
 }
 
-/* get rid of blue focus border on chrome for hamberger menu button
-/*
-.navbar-toggler:focus{
-outline:0;
-} */
+.hamburger{
+ text-align: center;
+ padding-top: 34px;
+}
+
+
 
 

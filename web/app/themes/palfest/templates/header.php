@@ -6,14 +6,18 @@
 <header class="navbar navbar-toggleable-md navbar-light bg-faded" role="banner">
   <div class="container">
     <div class="navbar-header">
+    <div class = "row">
+    <div class ="col-6 hamburger">
       <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only"><?= __('Toggle navigation', 'sage'); ?></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+
       </button>
-      <a class="navbar-brand" href="<?= esc_url(home_url('/')); ?>"><img src="<?= get_template_directory_uri() . '/dist/images/
+      </div>
+      <div class="navbar-brand col-4">
+      <a  href="<?= esc_url(home_url('/')); ?>"><img src="<?= get_template_directory_uri() . '/dist/images/
 logo.jpg'; ?>"></a>
+</div>
+</div>
     </div>
 
     <nav class="collapse navbar-collapse" role="navigation">
