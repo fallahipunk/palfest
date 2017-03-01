@@ -9,14 +9,18 @@
 	border-bottom-color: $palfest-red; 
 
 	.container-fluid{
-margin: 0px;
+		margin: 0px;
+	/* -- format fluid container from md (above 992 px - desktop) expand the whole navbar -- */
+		@media (min-width: 992px) {
+			width: 100%;
+		}
 	} 
 }
 
 
 
 .navbar-brand{
-	text-align: right;
+	text-align: center;
 
 }
 
@@ -52,14 +56,16 @@ margin: 0px;
 		the version of wpml used when this was written is 3.6.3 --*/
 
 	.wpml-ls-item-ar{
-		text-align: right;
+		text-align: center;
+		padding-top: 15px;
 		a{
 			color: $text-light;
 		}
 	}
 
 	.wpml-ls-item-en{
-		text-align: left;
+		padding-top: 15px;
+		text-align: center;
 		a{
 			color: $text-light;
 		}
