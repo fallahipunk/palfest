@@ -1,3 +1,20 @@
 body {
 font-family: 'Source Sans Pro', sans-serif;
+color: $text-dark;
+background-color: $palfest-bg;
+
+a{
+	color: $text-light;
+}
+a:hover{
+	color:$palfest-green;
+	text-decoration: none;
+}
+
+*:focus{
+	outline-color:$palfest-green;
+	outline-style: solid;
+	outline-width: 1px;
+}
+
 }

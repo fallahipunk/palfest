@@ -6,7 +6,7 @@
     
 	border-bottom-style: solid;
     border-bottom-width: 3px;
-	border-bottom-color: #fe0000; 
+	border-bottom-color: $palfest-red; 
 
 	.container{
 		margin-left: 35px;
@@ -19,20 +19,43 @@
 
 /*-- Style main menu --*/
 .palfest-main-menu{
-	text-align: right;
+	
+
 	font-size: 25px; 
 	padding-top: 20px;
 
 	li{
 		padding-bottom: 25px;
-
 	}
 
 	a{
-	color: #252525;
+		color: $text-dark;
 	}
+	a:hover{
+		text-decoration: none;
+	}
+		a:focus{
+		text-decoration: none;
+	}
+
 }
 
+/* -- Styling for language selector for wpml multi language plugin 
+		the version of wpml used when this was written is 3.6.3 --*/
+
+	.wpml-ls-item-ar{
+		text-align: right;
+		a{
+			color: $text-light;
+		}
+	}
+
+	.wpml-ls-item-en{
+		text-align: left;
+		a{
+			color: $text-light;
+		}
+	}
 
 /*  --- Style humberger menu button  -- */
 
@@ -45,10 +68,6 @@ background-repeat: no-repeat;
 background-position: center; 
 
 border: none;
-
-/* code to vertically center hamberger menu */
-top: 50px;
-transform: translateY(-50%);
 
 }
 
