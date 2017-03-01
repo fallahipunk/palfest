@@ -4,10 +4,10 @@
 ?>
 
 <header class="navbar navbar-toggleable-md navbar-light bg-faded" role="banner">
-  <div class="container">
+  <div class="container-fluid">
     <div class="navbar-header">
     <div class = "row">
-    <div class ="col-6 hamburger">
+    <div class ="col-6 hidden-lg hamburger">
       <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only"><?= __('Toggle navigation', 'sage'); ?></span>
 
