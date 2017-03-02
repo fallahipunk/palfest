@@ -19,7 +19,9 @@ logo.jpg'; ?>"></a>
 </div>
 </div>
     </div>
-
+    <div class = "row" >
+    <div class="col-lg-2"></div>
+    <div class="col-lg-8">
     <nav class="collapse navbar-collapse" role="navigation">
       <?php
       if (has_nav_menu('primary_navigation')) :
@@ -27,5 +29,7 @@ logo.jpg'; ?>"></a>
       endif;
       ?>
     </nav>
+    </div>
+    </div>
   </div>
 </header>

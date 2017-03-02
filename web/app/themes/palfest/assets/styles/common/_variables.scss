@@ -11,3 +11,13 @@ $text-light:			#A9A9A9;
 $palfest-red:			#ec0404;
 $palfest-green:			#7c7c1b;
 $palfest-bg:			#fbfbf8;
+
+// Breakpoints
+$screen-sm-min: 576px;
+$screen-xs-max: ($screen-sm-min - 1);
+$screen-md-min: 768px;
+$screen-sm-max: ($screen-md-min - 1);
+$screen-lg-min: 992px;
+$screen-md-max: ($screen-lg-min - 1);
+$screen-xl-min: 1200;
+$screen-lg-max: ($screen-xl-min - 1);
