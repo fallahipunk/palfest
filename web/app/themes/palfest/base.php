@@ -17,8 +17,16 @@ use Roots\Sage\Wrapper;
     <?php
       do_action('get_header');
       get_template_part('templates/header');
+
+      
+      //change container for front page to container fluid so that it fills the entir screen
+
+      if(is_front_page()):
     ?>
+    <div class="wrap container-fluid front-page-container" role="document">
+    <?php else: ?>
     <div class="wrap container" role="document">
+    <?php endif ?>
       <div class="content row">
         <main class="main">
           <?php include Wrapper\template_path(); ?>

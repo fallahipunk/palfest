@@ -1,0 +1,44 @@
+ /* -- Style front page --*/
+ .front-page-container{
+ 	 .main
+ 	 {	
+ 	 	padding: 0px;
+	 }
+}
+ #front-page{
+
+ 	// set vertical backgroud image for homepage (mobile first)
+
+	 background-image: url("../images/palfest-home-vertical.jpg");
+	 background-size: cover;
+
+	 //set background image size for different devices
+
+	 height: $xs-homepage-image-height;
+
+	 @media (min-width: $screen-sm-min) {
+			
+	 		height: $sm-homepage-image-height;
+		};
+
+	@media (min-width: $screen-md-min) { 
+	 		height: $md-homepage-image-height;
+		};
+
+	// set horizontal backgroud image for homepage (mobile first)
+	@media (min-width: $screen-lg-min) { 
+			background-image: url("../images/palfest-home-horizontal.jpg");
+	 		height: $lg-homepage-image-height;
+		};
+
+	@media (min-width: $screen-xl-min) { 
+	 		height: $xl-homepage-image-height;
+		};
+
+	
+	/* img{
+	 	margin:0 ;
+	 	object-fit: cover;
+		width: 100%;
+	 } */
+ }
