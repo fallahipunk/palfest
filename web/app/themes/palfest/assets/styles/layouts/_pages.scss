@@ -7,6 +7,30 @@
 }
  #front-page{
 
+ 	max-width: 2000px;
+ 	@media (min-width: 2001px) { 
+ 		background-color:palfest-red;
+	 	padding-left: calc(50% - 1000px);
+	 	padding-right: calc(50% - 1000px);
+	};
+
+ 	padding-top: 300px;
+ 	@media (min-width: $screen-md-min) { 
+	 	padding-top: 365x;
+	};
+
+ 	text-align: center;
+ 	font-size: 24px;
+ 	
+
+ 	a{
+ 		color: white;
+ 		background-color: $palfest-red;
+
+ 		padding-left:10px;
+ 		padding-right:10px;
+ 	}
+
  	// set vertical backgroud image for homepage (mobile first)
 
 	 background-image: url("../images/palfest-home-vertical.jpg");
