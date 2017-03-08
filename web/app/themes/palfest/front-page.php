@@ -15,11 +15,9 @@
 
 						$lang = ICL_LANGUAGE_CODE;
 						if ($lang =="ar"){
-							echo ($lang);
 							get_template_part('templates/newsletter', 'ar'); 
 						}
 						else{
-							echo ($lang);
 							get_template_part('templates/newsletter', 'en'); 
 						}
 			

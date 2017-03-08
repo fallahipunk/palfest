@@ -1,4 +1,3 @@
-
 <div id="mc_embed_signup">
 <form action="//palfest.us1.list-manage.com/subscribe/post?u=d2aefdbb95042e384122096de&amp;id=d11a278590" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
