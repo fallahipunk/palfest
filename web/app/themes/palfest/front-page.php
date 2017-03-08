@@ -9,7 +9,23 @@
 	  		<div class = "row">
 	  		
 		  		<div class = "col-md-6 homepage-newsletter">
-		  		hi hi hi
+		  		<?php 
+		  			 //switch newsletter form based on language 
+					
+
+						$lang = ICL_LANGUAGE_CODE;
+						if ($lang =="ar"){
+							echo ($lang);
+							get_template_part('templates/newsletter', 'ar'); 
+						}
+						else{
+							echo ($lang);
+							get_template_part('templates/newsletter', 'en'); 
+						}
+			
+					
+				?>
+
 		  		</div>
 
 				<div class = "col-md-6 homepage-mission">
