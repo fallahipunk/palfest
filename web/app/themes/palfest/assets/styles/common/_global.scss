@@ -1,7 +1,12 @@
 body {
 /* font-family: 'Source Sans Pro', sans-serif; */
 
-	font-family: 'Source Sans Pro', 'Mirza', sans-serif;
+font-family: 'Source Sans Pro', 'Lateef', sans-serif;
+
+:lang(ar){
+	font-size: 22px;
+}
+
 
 color: $text-dark;
 background-color: $palfest-bg;

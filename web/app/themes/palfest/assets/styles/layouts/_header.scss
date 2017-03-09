@@ -17,8 +17,6 @@
 	} 
 }
 
-
-
 .navbar-brand{
 	text-align: center;
 
@@ -31,7 +29,6 @@
 .menu-main-container, .menu-main-ar-container{
 
 	@media (min-width: $screen-lg-min) { width:100%;  }
-
 	
 }
 
@@ -39,17 +36,19 @@
 	
 
 	font-size: 25px;
+	:lang(ar){
+		font-size: 30px;
+	}
 
 	padding-top: 25px; 
 
 	@media (min-width: $screen-lg-min) {
-		font-size: 16px;
+		font-size: 18px;
+		:lang(ar){
+			font-size: 26px;
+		}
 		padding-top: 5px;
 	
-
-		:lang(ar){
-			font-size: 18px;
-		}
 	 }
 
 	li{
@@ -81,8 +80,11 @@
 		the version of wpml used when this was written is 3.6.3 --*/
 
 	.wpml-ls-item-ar{
+		font-size: 22px;
+
 		text-align: center;
-		padding-top: 15px;
+		padding-top: 0px;
+		margin-top: -5px;
 
 		@media (min-width: $screen-lg-min) { 
 			padding-top: 0px;  
@@ -94,7 +96,9 @@
 	}
 
 	.wpml-ls-item-en{
+		:lang(ar){
 		font-size: 16px;
+		}
 
 		padding-top: 15px;
 		text-align: center;

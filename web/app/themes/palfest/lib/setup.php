@@ -86,6 +86,7 @@ function display_sidebar() {
     is_404(),
     is_front_page(),
     is_page_template('template-custom.php'),
+    is_page()
   ]);
 
   return apply_filters('sage/display_sidebar', $display);
@@ -97,7 +98,7 @@ function display_sidebar() {
 function assets() {
 
 	/* adding google fonts style */
- wp_enqueue_style('google_fonts','https://fonts.googleapis.com/css?family=Mirza|Source+Sans+Pro',false);
+ wp_enqueue_style('google_fonts','https://fonts.googleapis.com/css?family=Lateef|Source+Sans+Pro',false);
  
 	/* adding sage style */
   wp_enqueue_style('sage/css', Assets\asset_path('styles/main.css'), false, null);
