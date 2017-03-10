@@ -65,14 +65,19 @@
 	 	object-fit: cover;
 		width: 100%;
 	 } */
+
+	border-bottom-style: solid;
+    border-bottom-width: 3px;
+	border-bottom-color: $palfest-green; 
+
  }
 
- .homepage-newsletter{
- 	//background-color: $palfest-red;
- }
 
   .homepage-mission{
+  	margin-top: 20px;
+ 	margin-bottom: 40px;
  	//background-color: $palfest-green;
+
  }
 
 
