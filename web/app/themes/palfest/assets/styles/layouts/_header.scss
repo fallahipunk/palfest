@@ -2,7 +2,7 @@
 
 .navbar-light{
 
-	background-color: #fdfffe;
+	background-color:  #fdfffe;
     
 	border-bottom-style: solid;
     border-bottom-width: 3px;
@@ -13,6 +13,7 @@
 	/* -- format fluid container from md (above 992 px - desktop) expand the whole navbar -- */
 		@media (min-width: $screen-lg-min) {
 			width: 100%;
+			padding-bottom: -10px;
 		}
 	} 
 }
@@ -28,7 +29,9 @@
 
 .menu-main-container, .menu-main-ar-container{
 
-	@media (min-width: $screen-lg-min) { width:100%;  }
+	@media (min-width: $screen-lg-min) { 
+		width:100%; 
+		 }
 	
 }
 
@@ -74,7 +77,16 @@
 		text-decoration: none;
 	}
 
+
 }
+
+  .current-menu-item{
+               background-color: $palfest-red !important;
+        }
+
+  .current-menu-parent{
+               background-color: $palfest-red !important;
+        }
 
 /* -- Styling for language selector for wpml multi language plugin 
 		the version of wpml used when this was written is 3.6.3 --*/
@@ -131,6 +143,19 @@ border: none;
  padding-top: 34px;
 }
 
+/*  --- Style submenu menu button  -- */
 
+//remove dropdown arrow
+.dropdown-menu{
+font-size: 18px;
+margin-top:30px;
+border: 0px;
+
+ }
+
+
+.dropdown-toggle:after{
+	border:0px;
+}
 
 

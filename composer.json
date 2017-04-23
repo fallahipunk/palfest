@@ -35,6 +35,11 @@
       "type": "vcs",
       "url": "https://github.com/llcllc/wpml.git",
       "no-api": true
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/llcllc/palfest-post.git",
+      "no-api": true
     }
   ],
   "require": {
@@ -44,9 +49,8 @@
     "johnpbloch/wordpress": "4.7.2",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
-	"wpackagist-plugin/better-wp-security": "6.1.1",
-	"wpackagist-plugin/sucuri-scanner": "1.8.3",
-  "llcllc/wpml": "dev-master"
+    "llcllc/wpml": "dev-master",
+    "llcllc/palfest-post": "dev-master"
 	
   },
   "require-dev": {
