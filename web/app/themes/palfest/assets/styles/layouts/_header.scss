@@ -7,6 +7,7 @@
 	border-bottom-style: solid;
     border-bottom-width: 3px;
 	border-bottom-color: $palfest-red; 
+	padding-bottom: 0px;
 
 	.container-fluid{
 		margin: 0px;
@@ -61,8 +62,6 @@
 		@media (min-width: $screen-lg-min) { 
 
 			text-align: center; 
-			padding-bottom: 5px;
-			padding-bottom: 5px;
 			padding-left: 3px;
 			padding-right: 3px;
 
@@ -187,4 +186,10 @@ border: 0px;
 	border:0px;
 }
 
-
+// - style dropdown menu
+.dropdown-menu{
+	@media (min-width: $screen-lg-min) { 
+		margin-top: 3px;
+		border-radius: 0px;
+	}
+}
