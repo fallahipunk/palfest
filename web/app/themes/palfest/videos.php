@@ -5,7 +5,10 @@
 ?>
 
 <?php while (have_posts()) : the_post(); ?>
+	<div class = "videos-title">
   <?php get_template_part('templates/page', 'header'); ?>
+  </div>
+  <div class = "videos-content">
   <?php get_template_part('templates/content', 'page'); ?>
-This is the videos template
+	</div>
 <?php endwhile; ?>

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6714e8bd6efa585eb3206b1806df95db",
-    "content-hash": "96c2ab7bb5ec552adcb05b02168f4277",
+    "hash": "227be288dfaef88547bddae3c47d4710",
+    "content-hash": "7d8772745d174fdf60659b1d138d8eb3",
     "packages": [
         {
             "name": "composer/installers",
@@ -193,17 +193,51 @@
             "time": "2015-06-11 15:15:30"
         },
         {
+            "name": "llcllc/masterslider",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/llcllc/masterslider.git",
+                "reference": "f5fcb77e741a8be5da90bf8f8a6d4d3bc2189d00"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/llcllc/masterslider/zipball/f5fcb77e741a8be5da90bf8f8a6d4d3bc2189d00",
+                "reference": "f5fcb77e741a8be5da90bf8f8a6d4d3bc2189d00",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "1.0.*",
+                "php": ">=5.3.2"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "H"
+                }
+            ],
+            "description": "Copy of the masterslider plugin for responsive sliders",
+            "homepage": "https://github.com/llcllc/masterslider.git",
+            "keywords": [
+                "wordpress"
+            ],
+            "time": "2017-04-27 01:31:35"
+        },
+        {
             "name": "llcllc/palfest-post",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/llcllc/palfest-post.git",
-                "reference": "9d8b007eb14ab187c3cc134b4d166256a05f93ae"
+                "reference": "faadb5cedef3308a94a87be1a185295fc3cd4df8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/llcllc/palfest-post/zipball/9d8b007eb14ab187c3cc134b4d166256a05f93ae",
-                "reference": "9d8b007eb14ab187c3cc134b4d166256a05f93ae",
+                "url": "https://api.github.com/repos/llcllc/palfest-post/zipball/faadb5cedef3308a94a87be1a185295fc3cd4df8",
+                "reference": "faadb5cedef3308a94a87be1a185295fc3cd4df8",
                 "shasum": ""
             },
             "require": {
@@ -224,7 +258,7 @@
             "keywords": [
                 "palfest"
             ],
-            "time": "2017-04-20 20:06:39"
+            "time": "2017-04-27 20:46:29"
         },
         {
             "name": "llcllc/wpml",
@@ -408,6 +442,46 @@
                 "environment"
             ],
             "time": "2016-09-01 10:05:43"
+        },
+        {
+            "name": "wpackagist-plugin/feed-them-social",
+            "version": "2.1.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/feed-them-social/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/feed-them-social.zip?timestamp=1492619611",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/feed-them-social/"
+        },
+        {
+            "name": "wpackagist-plugin/posts-to-posts",
+            "version": "1.6.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/posts-to-posts/",
+                "reference": "tags/1.6.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/posts-to-posts.1.6.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/posts-to-posts/"
         }
     ],
     "packages-dev": [
@@ -494,7 +568,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "llcllc/wpml": 20,
-        "llcllc/palfest-post": 20
+        "llcllc/palfest-post": 20,
+        "llcllc/masterslider": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

@@ -99,3 +99,89 @@
 
  	}
  }
+
+ /* -- style header page --*/
+ .programme-day{
+ 	.h1, h1{
+ 	 		padding-top:40px;
+ 		@media (min-width: $screen-lg-min) { 
+ 			padding-top:100px;
+ 		}
+	}
+ }
+
+ /* -- Style mission statement bg --*/
+
+ .mission-page{
+ 	height: 500px;
+ 	background-image: url("../images/mission-bg.jpg");
+	background-size: cover;
+
+ }
+
+ /*-- style Photos & Videos pages --*/
+
+ .photos-title{
+ 	text-align: center;
+ 	padding: 10px;
+ }
+ .photos-content{
+ 	padding-bottom: 20px;
+ }
+
+  .videos-title{
+ 	text-align: center;
+ 	padding: 10px;
+ }
+  .videos-content{
+ 	padding-bottom: 20px;
+ }
+
+ /* --  palfestivian profile page --*/
+
+.profile-image{
+	@media (max-width:$screen-md-max){
+		text-align: center;
+}
+	padding: 30px;
+
+
+}
+
+
+.profile-title{
+	padding-top: 30px;
+}
+.related-articles-title{
+	padding:30px;
+}
+
+.related-articles-item{
+	padding:30px;
+}
+
+/* -- Palfestivians list page --*/
+.palfestivians-thumb{
+	padding-top: 30px;
+text-align:center;
+}
+
+.palfestivians-title{
+	padding-top:30px;
+@media (max-width:$screen-md-max){
+text-align: center;
+padding-top: 10px;
+}
+
+}
+
+/*-- articles --*/
+
+.article-title{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.related-profiles-title{
+		padding-top: 30px;
+	padding-bottom: 30px;
+}

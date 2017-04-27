@@ -1,18 +1,19 @@
 body {
 /* font-family: 'Source Sans Pro', sans-serif; */
 
-font-family: 'Source Sans Pro', 'Mirza', sans-serif;
+font-family: 'Source Sans Pro', 'Scheherazade', sans-serif;
 
-:lang(ar){
-	font-size: 20px;
+
+
+.h1:lang(ar), h1:lang(ar), .h2:lang(ar), h2:lang(ar),.h3:lang(ar), h3:lang(ar),.h4:lang(ar), h4:lang(ar),.h5:lang(ar), h5:lang(ar) {
+	font-size:40px;
+}
+
 	.h1, h1, .h2, h2,.h3, h3,.h4, h4,.h5, h5{
 	font-size:36px;
 }
-}
 
-.h1, h1, .h2, h2,.h3, h3,.h4, h4,.h5, h5 {
-	font-size:30px;
-}
+
 
 color: $text-dark;
 background-color: $palfest-bg;
@@ -33,6 +34,14 @@ a:hover{
 
 }
 
+.container:lang(ar){
+font-size: 20px;
+}
+
 .red-bg {
 	background-color: $palfest-red;
 }
+
+
+
+
