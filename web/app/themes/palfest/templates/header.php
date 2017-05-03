@@ -7,21 +7,19 @@
   <div class="container-fluid">
     <div class="navbar-header">
     <div class = "row">
-    <div class ="col-3 col-sm-6 col-lg-4 hidden-lg hamburger">
+    <div class ="col-3 col-sm-6 col-lg-1 hidden-lg hamburger">
       <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only"><?= __('Toggle navigation', 'sage'); ?></span>
 
       </button>
       </div>
-      <div class="navbar-brand col-6 col-sm-5 col-lg-4">
+      <div class="navbar-brand col-6 col-sm-5 col-lg-2">
       <a  href="<?= esc_url(home_url('/')); ?>"><img src="<?= get_template_directory_uri() . '/dist/images/
 logo.jpg'; ?>"></a>
 </div>
-</div>
-    </div>
-    <div class = "row" >
-    <div class="col-lg-1 col-xl-2"></div>
-    <div class="col-lg-10 col-xl-8">
+
+
+    <div class="col-lg-8">
     <nav class="collapse navbar-collapse" role="navigation">
       <?php
       if (has_nav_menu('primary_navigation')) :

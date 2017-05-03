@@ -99,7 +99,7 @@ function display_sidebar() {
 function assets() {
 
 	/* adding google fonts style */
- wp_enqueue_style('google_fonts','https://fonts.googleapis.com/css?family=Scheherazade|Source+Sans+Pro',false);
+ wp_enqueue_style('google_fonts','https://fonts.googleapis.com/css?family=Scheherazade',false);
  
 	/* adding sage style */
   wp_enqueue_style('sage/css', Assets\asset_path('styles/main.css'), false, null);
