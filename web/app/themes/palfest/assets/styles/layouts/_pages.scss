@@ -1,3 +1,8 @@
+.main{
+	padding-top: 40px;
+}
+
+
  /* -- Style front page --*/
  .front-page-container{
  	 .main
@@ -101,14 +106,14 @@
  }
 
  /* -- style header page --*/
- .programme-day{
- 	.h1, h1{
- 	 		padding-top:40px;
- 		@media (min-width: $screen-lg-min) { 
- 			padding-top:100px;
- 		}
-	}
- }
+ // .programme-day{
+ // 	.h1, h1{
+ // 	 		padding-top:40px;
+ // 		@media (min-width: $screen-lg-min) { 
+ // 			padding-top:100px;
+ // 		}
+	// }
+ // }
 
  /* -- Style mission statement bg --*/
 
