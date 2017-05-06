@@ -15,6 +15,7 @@ $args = array(
 
 	);
 $loop = new WP_Query( $args );
+p2p_type( 'profiles_to_days' )->each_connected( $loop );
 echo '<div class = "row">';
 while ( $loop->have_posts() ) : $loop->the_post();
 
@@ -23,6 +24,18 @@ echo '<div class = "col-sm-6 col-lg-4 programme-day"> <h1>' ;
   echo '</h1> <div class="entry-content">';
   the_content();
   echo '</div>';
+    foreach ( $post->connected as $post ) : setup_postdata( $post );?>
+    
+    <p>
+    <a href="<?php the_permalink(); ?>">
+    <?php the_title(); ?>
+    </a>
+    </p>
+   
+    <?php
+    endforeach;
+  
+    wp_reset_postdata();
   echo '</div>';
 
 endwhile;

@@ -1,5 +1,9 @@
 /* -- Style navbar  -- */
-
+menu-item{
+	@media(min-width:$screen-lg-min){
+		min-width: 100px;
+	}
+}
 .navbar-light{
 
 	background-color:  #fdfffe;
@@ -75,6 +79,7 @@ padding-top: 25px;
 	 }
 
 	li{
+		min-width:130px;
 		max-width: 475px;
 		padding: 15px;
 	
@@ -97,9 +102,9 @@ padding-top: 25px;
 // highlight selected menu item and it's parent
 .current-menu-item{
   			
-            background-color: $palfest-red !important;
+           // background-color: $palfest-red !important;
             a{
-            	color:$palfest-bg!important;
+            	color:$palfest-red!important;
             }
         }
 
@@ -112,9 +117,9 @@ padding-top: 25px;
 
   .current-menu-parent{
 			
-            background-color: $palfest-red !important;
+           // background-color: $palfest-red !important;
             a{
-            	color:$palfest-bg;
+            	color:$palfest-red;
             }
              ul{
              	padding: 0;

@@ -13,7 +13,7 @@
 
       </button>
       </div>
-      <div class="navbar-brand col-6 col-sm-5 col-lg-2">
+      <div class="navbar-brand col-6 col-sm-5 col-lg-1">
       <a  href="<?= esc_url(home_url('/')); ?>"><img src="<?= get_template_directory_uri() . '/dist/images/
 logo.jpg'; ?>"></a>
 </div>

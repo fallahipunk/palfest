@@ -21,7 +21,7 @@
         // JavaScript to be fired on all pages
 
         //add bootstrap grid classes to nav menu items in order to better align them
-        $( ".menu-item" ).addClass( "col-lg-2" );
+      //  $( ".menu-item" ).addClass( "col-lg-2" );
 
         
       },

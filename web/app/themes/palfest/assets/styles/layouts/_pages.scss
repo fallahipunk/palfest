@@ -1,3 +1,14 @@
+
+
+
+.related-profiles-in-day-title{
+padding: 30px;
+}
+
+.related-profiles-in-day-item{
+	padding: 20px;
+}
+
 .programme-day{
 	padding-top: 40px;
 }
@@ -180,12 +191,12 @@
 .profile-title{
 	padding-top: 30px;
 }
-.related-articles-title{
-	padding:30px;
+.related-articles-title, .related-days-title{
+	padding:15px;
 }
 
-.related-articles-item{
-	padding:30px;
+.related-articles-item, .related-days-item{
+	padding:15px;
 }
 
 /* -- Palfestivians list page --*/
