@@ -58,7 +58,8 @@
     "llcllc/palfest-post": "dev-master",
     "llcllc/masterslider": "dev-master",
     "wpackagist-plugin/posts-to-posts" : "1.6.5",
-    "wpackagist-plugin/feed-them-social" : "2.1.8",
+    "wpackagist-plugin/juicer" : "1.8",
+    "wpackagist-plugin/better-wp-security" : "6.2.1",
     "johnpbloch/wordpress": "4.7.3"
 	
   },

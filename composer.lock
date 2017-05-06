@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3d5ff133afc658a2d5a266cd5c133f40",
-    "content-hash": "2edd1a85c8f749dfb3abf6d71e5fc442",
+    "hash": "90ac598b83cf6655c0b35272fb7e848f",
+    "content-hash": "2a2c7639465f83972526ca73c39ac1c7",
     "packages": [
         {
             "name": "composer/installers",
@@ -271,12 +271,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/llcllc/palfest-post.git",
-                "reference": "de8b667648f81cfe29400635231a5e2f104d09ab"
+                "reference": "dd2f3b44758e5af543f29b26cbd2b0d6c0e294ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/llcllc/palfest-post/zipball/de8b667648f81cfe29400635231a5e2f104d09ab",
-                "reference": "de8b667648f81cfe29400635231a5e2f104d09ab",
+                "url": "https://api.github.com/repos/llcllc/palfest-post/zipball/dd2f3b44758e5af543f29b26cbd2b0d6c0e294ab",
+                "reference": "dd2f3b44758e5af543f29b26cbd2b0d6c0e294ab",
                 "shasum": ""
             },
             "require": {
@@ -297,7 +297,7 @@
             "keywords": [
                 "palfest"
             ],
-            "time": "2017-05-03 23:15:28"
+            "time": "2017-05-06 18:40:35"
         },
         {
             "name": "llcllc/wpml",
@@ -483,16 +483,16 @@
             "time": "2016-09-01 10:05:43"
         },
         {
-            "name": "wpackagist-plugin/feed-them-social",
-            "version": "2.1.8",
+            "name": "wpackagist-plugin/better-wp-security",
+            "version": "6.2.1",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/feed-them-social/",
-                "reference": "trunk"
+                "url": "https://plugins.svn.wordpress.org/better-wp-security/",
+                "reference": "tags/6.2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/feed-them-social.zip?timestamp=1492619611",
+                "url": "https://downloads.wordpress.org/plugin/better-wp-security.6.2.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -500,7 +500,27 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/feed-them-social/"
+            "homepage": "https://wordpress.org/plugins/better-wp-security/"
+        },
+        {
+            "name": "wpackagist-plugin/juicer",
+            "version": "1.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/juicer/",
+                "reference": "tags/1.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/juicer.1.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/juicer/"
         },
         {
             "name": "wpackagist-plugin/posts-to-posts",
@@ -526,16 +546,16 @@
     "packages-dev": [
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "2.8.1",
+            "version": "2.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "d7cf0d894e8aa4c73712ee4a331cc1eaa37cdc7d"
+                "reference": "f7dfecbee89d68ab475a6c9e17d22bc9b69aed97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/d7cf0d894e8aa4c73712ee4a331cc1eaa37cdc7d",
-                "reference": "d7cf0d894e8aa4c73712ee4a331cc1eaa37cdc7d",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/f7dfecbee89d68ab475a6c9e17d22bc9b69aed97",
+                "reference": "f7dfecbee89d68ab475a6c9e17d22bc9b69aed97",
                 "shasum": ""
             },
             "require": {
@@ -600,7 +620,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2017-03-01 22:17:45"
+            "time": "2017-05-03 23:30:39"
         }
     ],
     "aliases": [],
