@@ -26,11 +26,12 @@ echo '<div class = "col-sm-6 col-lg-4 programme-day"> <h1>' ;
   echo '</div>';
     foreach ( $post->connected as $post ) : setup_postdata( $post );?>
     
-    <p>
+    <div class = "programme-participant"><p>
     <a href="<?php the_permalink(); ?>">
     <?php the_title(); ?>
     </a>
     </p>
+    </div>
    
     <?php
     endforeach;
