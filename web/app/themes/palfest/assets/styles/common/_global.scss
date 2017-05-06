@@ -1,3 +1,7 @@
+@import "bootstrap";
+
+.hentry img { @extend .img-responsive; } 
+
 body {
 /* font-family: 'Source Sans Pro', sans-serif; */
 
