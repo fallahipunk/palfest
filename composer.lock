@@ -271,12 +271,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/llcllc/palfest-post.git",
-                "reference": "faadb5cedef3308a94a87be1a185295fc3cd4df8"
+                "reference": "de8b667648f81cfe29400635231a5e2f104d09ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/llcllc/palfest-post/zipball/faadb5cedef3308a94a87be1a185295fc3cd4df8",
-                "reference": "faadb5cedef3308a94a87be1a185295fc3cd4df8",
+                "url": "https://api.github.com/repos/llcllc/palfest-post/zipball/de8b667648f81cfe29400635231a5e2f104d09ab",
+                "reference": "de8b667648f81cfe29400635231a5e2f104d09ab",
                 "shasum": ""
             },
             "require": {
@@ -297,7 +297,7 @@
             "keywords": [
                 "palfest"
             ],
-            "time": "2017-04-27 20:46:29"
+            "time": "2017-05-03 23:15:28"
         },
         {
             "name": "llcllc/wpml",

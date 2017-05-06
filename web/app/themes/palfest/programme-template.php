@@ -3,7 +3,7 @@
  * Template Name: Programme Template
  */
 ?>
-
+<div class = "container">
 <?php 
 
 $args = array( 
@@ -28,3 +28,4 @@ echo '<div class = "col-sm-6 col-lg-4 programme-day"> <h1>' ;
 endwhile;
 echo '</div>';
  ?>
+ </div>

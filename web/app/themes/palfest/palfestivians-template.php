@@ -3,13 +3,16 @@
  * Template Name: Palfestivians Template
  */
 ?>
-
+<div class = "container">
 <?php 
 
 $args = array( 
 
 	'post_type' => 'profile',
-	'posts_per_page' => -1
+	'posts_per_page' => -1,
+	'orderby'   => 'meta_value',
+	'meta_key'  => 'palfestivian_last_name',
+	'order'     => 'ASC'
 );
 
 $loop = new WP_Query( $args );
@@ -25,7 +28,7 @@ if ( has_post_thumbnail() ) {
 <a href="<?php the_permalink(); ?>">
 <?php
   the_title();
-
+	//$lastname  = get_post_meta($post_id, 'palfestivian-last-name', false);
   echo '</a></div> </div> </div>';
  
 
@@ -33,3 +36,4 @@ if ( has_post_thumbnail() ) {
 endwhile;
 echo '</div>';
  ?>
+ </div>

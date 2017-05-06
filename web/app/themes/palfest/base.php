@@ -19,15 +19,15 @@ use Roots\Sage\Wrapper;
       get_template_part('templates/header');
 
       
-      //change container for front page to container fluid so that it fills the entir screen
+      //add front page container to homepage
 
       if(is_front_page()):
     ?>
     <div class="wrap container-fluid front-page-container" role="document">
     <?php else: ?>
-    <div class="wrap container" role="document">
+    <div class="wrap container-fluid" role="document">
     <?php endif ?>
-      <div class="content row">
+      <div class="content">
         <main class="main">
           <?php include Wrapper\template_path(); ?>
         </main><!-- /.main -->

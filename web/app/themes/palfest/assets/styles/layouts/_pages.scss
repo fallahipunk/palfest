@@ -1,7 +1,25 @@
-.main{
+.programme-day{
 	padding-top: 40px;
 }
 
+.container-fluid{
+	padding:0px;
+}
+
+.main{
+	padding:0px;
+}
+
+.palfest-content{
+	padding: 40px;
+	max-width: 900px;
+	margin-left: auto;
+	margin-right:  auto;
+}
+
+.mission-wrap{
+	min-height:100vh;
+}
 
  /* -- Style front page --*/
  .front-page-container{
@@ -11,10 +29,12 @@
 	 }
 }
  #front-page{
+ 	margin-left:auto;
+ 	margin-right:auto;
 
- 	max-width: 2000px;
+ 	//max-width: 2000px;
  	@media (min-width: 2001px) { 
- 		background-color:palfest-red;
+ 		//background-color:palfest-red;
 	 	padding-left: calc(50% - 1000px);
 	 	padding-right: calc(50% - 1000px);
 	};
@@ -43,25 +63,25 @@
 
 	 //set background image size for different devices
 
-	 height: $xs-homepage-image-height;
+	 min-height: $xs-homepage-image-height;
 
 	 @media (min-width: $screen-sm-min) {
 			
-	 		height: $sm-homepage-image-height;
+	 		min-height: $sm-homepage-image-height;
 		};
 
 	@media (min-width: $screen-md-min) { 
-	 		height: $md-homepage-image-height;
+	 		min-height: $md-homepage-image-height;
 		};
 
 	// set horizontal backgroud image for homepage (mobile first)
 	@media (min-width: $screen-lg-min) { 
 			background-image: url("../images/palfest-home-horizontal.jpg");
-	 		height: $lg-homepage-image-height;
+	 		min-height: 100vh;
 		};
 
 	@media (min-width: $screen-xl-min) { 
-	 		height: $xl-homepage-image-height;
+	 		min-height:100vh;
 		};
 
 	
@@ -88,10 +108,15 @@
 
  /* ----------- Style Page ---------------- */
 
+.container{
+
+}
+
  .page-header{
  	padding-top:35px;
  	padding-bottom:35px;
  }
+
 
  /*-- Style titles in patron's page --*/
 
@@ -118,29 +143,27 @@
  /* -- Style mission statement bg --*/
 
  .mission-page{
- 	height: 500px;
- 	background-image: url("../images/mission-bg.jpg");
-	background-size: cover;
+ 	min-height: 500px;
 
  }
 
  /*-- style Photos & Videos pages --*/
 
- .photos-title{
- 	text-align: center;
- 	padding: 10px;
- }
- .photos-content{
- 	padding-bottom: 20px;
- }
+ // .photos-title{
+ // 	text-align: center;
+ // 	padding: 10px;
+ // }
+ // .photos-content{
+ // 	padding-bottom: 20px;
+ // }
 
-  .videos-title{
- 	text-align: center;
- 	padding: 10px;
- }
-  .videos-content{
- 	padding-bottom: 20px;
- }
+ //  .videos-title{
+ // 	text-align: center;
+ // 	padding: 10px;
+ // }
+ //  .videos-content{
+ // 	padding-bottom: 20px;
+ // }
 
  /* --  palfestivian profile page --*/
 
