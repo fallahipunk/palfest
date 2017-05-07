@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "90ac598b83cf6655c0b35272fb7e848f",
-    "content-hash": "2a2c7639465f83972526ca73c39ac1c7",
+    "hash": "284b58e28fe1a93f952930d44b579258",
+    "content-hash": "f49dd502f807e6bca14742083e6da303",
     "packages": [
         {
             "name": "composer/installers",
@@ -271,12 +271,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/llcllc/palfest-post.git",
-                "reference": "dd2f3b44758e5af543f29b26cbd2b0d6c0e294ab"
+                "reference": "b54bb61d5d5054fc797fd3e55586dfd48a138036"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/llcllc/palfest-post/zipball/dd2f3b44758e5af543f29b26cbd2b0d6c0e294ab",
-                "reference": "dd2f3b44758e5af543f29b26cbd2b0d6c0e294ab",
+                "url": "https://api.github.com/repos/llcllc/palfest-post/zipball/b54bb61d5d5054fc797fd3e55586dfd48a138036",
+                "reference": "b54bb61d5d5054fc797fd3e55586dfd48a138036",
                 "shasum": ""
             },
             "require": {
@@ -297,7 +297,7 @@
             "keywords": [
                 "palfest"
             ],
-            "time": "2017-05-06 18:40:35"
+            "time": "2017-05-07 18:07:36"
         },
         {
             "name": "llcllc/wpml",
@@ -501,6 +501,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/better-wp-security/"
+        },
+        {
+            "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
+            "version": "4.9.6.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/google-analytics-dashboard-for-wp/",
+                "reference": "tags/4.9.6.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.4.9.6.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/google-analytics-dashboard-for-wp/"
         },
         {
             "name": "wpackagist-plugin/juicer",
