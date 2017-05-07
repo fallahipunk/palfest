@@ -1,4 +1,4 @@
-<?php /* Template Name: Mission Statement Template */ ?>
+<?php /* Template Name: Support Statement Template */ ?>
 
 
 <?php while (have_posts()) : the_post();?>
