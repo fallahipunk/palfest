@@ -60,6 +60,7 @@
     "wpackagist-plugin/posts-to-posts" : "1.6.5",
     "wpackagist-plugin/juicer" : "1.8",
     "wpackagist-plugin/google-analytics-dashboard-for-wp" : "4.9.6.2",
+    "wpackagist-plugin/search-and-replace" : "3.1.2",
     "johnpbloch/wordpress": "4.7.3"
 	
   },

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "284b58e28fe1a93f952930d44b579258",
-    "content-hash": "f49dd502f807e6bca14742083e6da303",
+    "hash": "3bdb1abd6cf2d299cb222da83b064c43",
+    "content-hash": "abb221e5da6a101c9285c1cf46f69070",
     "packages": [
         {
             "name": "composer/installers",
@@ -483,26 +483,6 @@
             "time": "2016-09-01 10:05:43"
         },
         {
-            "name": "wpackagist-plugin/better-wp-security",
-            "version": "6.2.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/better-wp-security/",
-                "reference": "tags/6.2.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/better-wp-security.6.2.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/better-wp-security/"
-        },
-        {
             "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
             "version": "4.9.6.2",
             "source": {
@@ -561,6 +541,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/posts-to-posts/"
+        },
+        {
+            "name": "wpackagist-plugin/search-and-replace",
+            "version": "3.1.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/search-and-replace/",
+                "reference": "tags/3.1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/search-and-replace.3.1.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/search-and-replace/"
         }
     ],
     "packages-dev": [
