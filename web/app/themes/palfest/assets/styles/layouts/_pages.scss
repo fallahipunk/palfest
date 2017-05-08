@@ -1,3 +1,9 @@
+.programme-day{
+	a{
+		color: $text-dark;
+	}
+}
+
 .day-wrap{
 			color:#fff;
 		a{
@@ -65,6 +71,9 @@ padding: 30px;
 }
 
 .mission-wrap{
+	min-height:100vh;
+}
+.day-wrap{
 	min-height:100vh;
 }
 
