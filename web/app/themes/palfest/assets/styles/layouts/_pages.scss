@@ -1,3 +1,19 @@
+
+.mission-wrap{
+	color: #fff;
+	a{
+		color:#fff;
+	}
+	.day-wrap{
+	.programme-participant{
+		color:3#fff;
+		a{
+			color:#fff;
+		}
+	}
+	}
+}
+
 .programme-day{
 	a{
 		color: $text-dark;
@@ -13,13 +29,9 @@
 
 .mission-page{
 	.palfest-content{
-		text-shadow: 2px 2px 8px #000;
 		padding-top: 50px;
 
-		color:#fff;
-		a{
-			color: #fff;
-		}
+
 	}
 }
 
@@ -33,14 +45,7 @@
 	}
 }
 
-.programme-participant{
-	a{
-		color:$text-dark;
-	}
-	a:hover{
-		color:$text-light;
-	}
-}
+
 
 
 .related-profiles-in-day-title{
