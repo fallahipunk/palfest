@@ -90,24 +90,8 @@ padding: 30px;
 	 }
 }
  #front-page{
- 	margin-left:auto;
- 	margin-right:auto;
-
- 	//max-width: 2000px;
- 	@media (min-width: 2001px) { 
- 		//background-color:palfest-red;
-	 	padding-left: calc(50% - 1000px);
-	 	padding-right: calc(50% - 1000px);
-	};
-
- 	padding-top: 300px;
- 	@media (min-width: $screen-md-min) { 
-	 	padding-top: 365x;
-	};
-
- 	text-align: center;
- 	font-size: 24px;
  	
+
 
  	a{
  		color: white;
@@ -116,45 +100,17 @@ padding: 30px;
  		padding-left:10px;
  		padding-right:10px;
  	}
-
- 	// set vertical backgroud image for homepage (mobile first)
-
-	 background-image: url("../images/palfest-home-vertical.jpg");
-	 background-size: cover;
-
-	 //set background image size for different devices
-
-	 min-height: $xs-homepage-image-height;
-
-	 @media (min-width: $screen-sm-min) {
-			
-	 		min-height: $sm-homepage-image-height;
-		};
-
-	@media (min-width: $screen-md-min) { 
-	 		min-height: $md-homepage-image-height;
-		};
-
-	// set horizontal backgroud image for homepage (mobile first)
-	@media (min-width: $screen-lg-min) { 
-			background-image: url("../images/palfest-home-horizontal.jpg");
-	 		min-height: 100vh;
-		};
-
-	@media (min-width: $screen-xl-min) { 
-	 		min-height:100vh;
-		};
-
-	
-	/* img{
-	 	margin:0 ;
-	 	object-fit: cover;
-		width: 100%;
-	 } */
+ 
 
 	border-bottom-style: solid;
     border-bottom-width: 3px;
 	border-bottom-color: $palfest-green; 
+
+	.main{
+		.palfest-content{
+			padding:0px; 
+		}
+	}
 
  }
 
